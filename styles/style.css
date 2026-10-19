@@ -52,9 +52,15 @@ header{
     }
 }
 
+/* Section-1 */
+
 .watch-models-options{
-    
-    margin: 0px 350px;
+    margin: 0px 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 450px;
+    gap: 58px;
 }
 
 .hero-text{
@@ -69,7 +75,7 @@ header{
 
 .hero-list{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(10, 1fr);
     justify-items: center;
 
     li{
@@ -79,14 +85,127 @@ header{
             text-align: center;
             text-decoration: none;
             color: #1D1D1F;
+            font-size: 14px;
+            font-weight: 450;
+        }
+
+        figure {
+            height: 55px;
+            margin: 0;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
         img{
             width: 47px;
         }
 
+        .img-acessories{
+            width: 22px;
+        }
+
+        .img-compare{
+            width: 56px;
+        }
+
+        .img-shopWatch{
+            width: 65px;
+        }
+
         .add-info{
             color: #B64400;
+            font-size: 11px;
         }
     }
 }
+
+.img-acessories{
+    width: 22px;
+}
+
+/* Section-2 */
+
+.fast-models-informations{
+    background-color: #F5F5F7;
+}
+
+/* Section-3 */
+
+
+
+/* Section-4 */
+
+.bands-section{
+    padding-top: 144px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head-txt-bands-section{
+    display: flex;
+    gap: 500px;
+    margin-bottom: 48px;
+    
+
+    h2{
+        font-size: 48px;
+        font-weight: 600;
+    }
+
+    .add-info-bands-section{
+        padding-bottom: 2px;
+        align-self: end;
+
+        a{
+            
+            text-decoration: none;
+            color: rgb(0, 113, 227);
+        }
+    }
+}
+
+.banner{
+    background-color: #F5F5F7;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    padding-right: 50px;
+    border-radius: 30px;
+    gap: 124px;
+}
+
+.left-side-text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 76px;
+    gap: 12px;
+
+    .first-text-bnr{
+        font-size: 33px;
+        font-weight: 500;
+    }
+
+    p{
+        font-weight: 10px;
+    }
+
+    .link-banner{
+        
+
+        a{
+            color: rgb(0, 113, 227);
+            text-decoration: none;
+        }
+    }
+}
+
+.right-side{
+
+}
+
+/* Section-5 */
+
+
