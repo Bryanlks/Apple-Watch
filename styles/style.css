@@ -152,7 +152,7 @@ header{
 
     h2{
         font-size: 48px;
-        font-weight: 600;
+        font-weight: 500;
     }
 
     .add-info-bands-section{
@@ -202,10 +202,69 @@ header{
     }
 }
 
-.right-side{
-
-}
-
 /* Section-5 */
 
+.section5{
+}
 
+.content-section5{
+    padding-top: 144px;
+    display: flex;
+    max-width: 1260px;
+    margin-inline: auto;
+    margin-bottom: 42px;
+
+    h2{
+        span{
+            font-size: 48px;
+            font-weight: 500;
+        }
+    }
+}
+
+.banner-section5{
+    display: grid;
+    background-color: #F5F5F7;
+    grid-template-columns: repeat(2, 1fr);
+
+    border-radius: 28px;
+    max-width: 1260px;
+    margin-inline: auto;
+
+    .info-holder{
+        padding: 0 60px;
+        
+    }
+
+    .subtitle-section5, .paragraph-section5{
+        max-width: 83%;
+    }
+
+    .paragraph-section5{
+        padding-top: 32px;
+        font-size: 22px;
+    }
+
+    .topInfo-banner{
+        font-size: 28px;
+        font-weight: 500;
+    }
+
+    li{
+        list-style-type: none;
+        max-width: 83%;
+    }
+
+    .div-info-holer{
+
+    }
+
+    .img-banner-section5{
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 28px;
+        }
+    }
+}
