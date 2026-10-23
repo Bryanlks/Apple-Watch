@@ -141,7 +141,8 @@ header{
     padding-top: 144px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    max-width: 1240px;
+    margin-inline: auto;
 }
 
 .head-txt-bands-section{
@@ -171,7 +172,6 @@ header{
     background-color: #F5F5F7;
     display: grid;
     grid-template-columns: auto 1fr;
-    padding-right: 50px;
     border-radius: 30px;
     gap: 124px;
 }
@@ -233,7 +233,7 @@ header{
 
     .info-holder{
         padding: 0 60px;
-        
+        max-width: 83%;
     }
 
     .subtitle-section5, .paragraph-section5{
@@ -242,17 +242,31 @@ header{
 
     .paragraph-section5{
         padding-top: 32px;
-        font-size: 22px;
+        font-size: 17px;
+        font-weight: 350;
     }
 
     .topInfo-banner{
         font-size: 28px;
         font-weight: 500;
+        max-width: 83%;
     }
 
     li{
+        display: flex;
         list-style-type: none;
         max-width: 83%;
+        padding: 32px 0px;
+        justify-content: space-between;
+
+        .arrow{
+            width: 30px;
+        }
+    }
+
+    #li-unique{
+        display: flex;
+        flex-direction: column;
     }
 
     .div-info-holer{
@@ -265,6 +279,29 @@ header{
             height: 100%;
             object-fit: cover;
             border-radius: 28px;
+        }
+    }
+}
+
+/* Section-6*/
+
+.tit-section6{
+    padding-top: 144px;
+}
+
+.center-section6{
+    max-width: 1240px;
+    margin-inline: auto;
+}
+
+.list-info-section6{
+
+    li{
+        list-style-type: none;
+
+        a{
+            text-decoration: none;
+            color: black;
         }
     }
 }
