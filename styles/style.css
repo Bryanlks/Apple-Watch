@@ -205,6 +205,7 @@ header{
 /* Section-5 */
 
 .section5{
+    padding-bottom: 144px;
 }
 
 .content-section5{
@@ -270,7 +271,6 @@ header{
     }
 
     .div-info-holer{
-
     }
 
     .img-banner-section5{
@@ -285,8 +285,19 @@ header{
 
 /* Section-6*/
 
+#section6{
+    padding-bottom: 44px;
+    background-color: #FAFAFC;
+}
+
 .tit-section6{
     padding-top: 144px;
+    padding-bottom: 44px;
+    font-size: 32px;
+    
+    span{
+        font-weight: 600;
+    }
 }
 
 .center-section6{
@@ -295,13 +306,48 @@ header{
 }
 
 .list-info-section6{
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+
+    .gray-div{
+        padding-bottom: 12px;
+    }
+
+    .gray{
+        color: gray;
+    }
 
     li{
         list-style-type: none;
+        padding-bottom: 16px;
 
         a{
             text-decoration: none;
             color: black;
+            font-weight: 600;
+        }
+    }
+
+    .big-list{
+        font-size: 28px;
+        font-weight: 600;
+
+        li{
+            padding-bottom: 8px;
+        }
+    }
+
+    .add-info-bigList{
+
+
+        p{
+            padding-bottom: 12px;
+        }
+
+        a{
+            text-decoration: none;
+            color: black;
+            font-weight: 600;
         }
     }
 }
