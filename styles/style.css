@@ -133,7 +133,107 @@ header{
 
 /* Section-3 */
 
+.bck-section3{
+    max-width: 1240px;
+    margin-inline: auto;
+}
 
+.section3{
+    background-color: #F5F5F7;
+    padding-bottom: 144px;
+}
+
+.tit-section3{
+    display: flex;
+    padding-top: 144px;
+    padding-bottom: 44px;
+    justify-content: space-between;
+
+    h2{
+        font-size: 48px;
+        font-weight: 600;
+    }
+
+    .link-holder-tit-section3{
+        align-self: end;
+
+        a{
+            text-decoration: none;
+            color: rgb(0, 113, 227);
+        }
+    }
+}
+
+.card-holder-section3{
+
+    ul{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 32px;
+
+        li{
+            background-color: white;
+            border-radius: 24px;
+            align-items: center;
+            list-style-type: none;
+            
+            .card-section3{
+            }
+
+            .content-card-section3{
+                padding: 32px;
+            }
+
+            .card-image{
+                display: flex;
+                position: relative;
+                height: 280px;
+            }
+
+            img{
+                max-height: 100%;
+                width: 100%;
+                object-fit: cover;
+                display: block;
+            }
+
+            .fixed-end-add-btn-card{
+                position: absolute;
+                background-color: #ECECF0;
+                width: 36px;
+                height: 36px;
+                border-radius: 50%;
+                align-self: end;
+                justify-self: end;
+                transform: translateX(-22px);
+
+                p{
+                    text-align: center;
+                    font-size: 28px;
+                    color: #555557;
+                    opacity: 0.8;
+                }
+
+                .rightAroow-btn{
+                    width: 28px;
+                    opacity: 0.6;
+                }
+            }
+
+            h3{
+                font-size: 17px;
+                font-weight: 600;
+                padding-bottom: 4px;
+            }
+
+            .imp-text{
+                font-size: 28px;
+                font-weight: 600;
+                padding-bottom: 4px;
+            }
+        }
+    }
+}
 
 /* Section-4 */
 
