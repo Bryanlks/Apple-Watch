@@ -162,6 +162,7 @@ header{
     ul{
         display: flex;
         list-style-type: none;
+        gap: 26px;
 
         li{
 
@@ -169,6 +170,31 @@ header{
                 display: flex;
                 flex-direction: column;
                 align-items: center;
+
+                .colors-holder-card1-section2, .colors-holder-card2-section2{
+                    padding: 28px 0px;
+                }
+
+                .colors-holder-card3-section2{
+                    padding: 28px 0px 56px 0px;
+                }
+
+                .watch-top-info{
+                    font-size: 24px;
+                    font-weight: 400;
+                    padding-bottom: 10px;
+                }
+
+                .info1-card1, .info1-card2, .info1-card3{
+                    font-weight: 600;
+                }
+
+                .info2-card1, .info2-card2, .info2-card3{
+                    padding: 26px;
+                    text-align: center;
+                    font-weight: 400;
+                    font-size: 14px;
+                }
             }
 
             .color-card{
@@ -219,29 +245,40 @@ header{
             }
 
             .extra-info-section2{
+                padding-bottom: 12px;
 
                 p{
 
                     span{
+                        font-size: 12px;
+                        font-weight: 500;
                         color: #B64400;
                     }
                 }
+            }
+
+            .specialSpacing{
+                padding: 36px;
             }
 
             .buttons-card-section2{
                 display: flex;
                 justify-content: center;
                 gap: 36px;
+                align-items: center;
                 
                 button{
                     background-color: rgb(0, 113, 227);
                     border: none;
-                    border-radius: 12%;
-                    width: 130px;
+                    border-radius: 24px;
+                    color: white;
+                    font-size: 16px;
+                    padding: 12px 30px;
 
                 }
 
                 p{
+                    margin: 0;
 
                     a{
                         text-decoration: none;
@@ -498,9 +535,10 @@ header{
     .img-banner-section5{
         img{
             width: 100%;
-            height: 100%;
-            object-fit: cover;
+            height: auto;
+            object-fit: contain;
             border-radius: 28px;
+            display: block;
         }
     }
 }
