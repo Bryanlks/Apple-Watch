@@ -114,6 +114,10 @@ header{
             width: 65px;
         }
 
+        img:hover{
+            transform: scale(1.09);
+        }
+
         .add-info{
             color: #B64400;
             font-size: 11px;
@@ -170,6 +174,14 @@ header{
                 display: flex;
                 flex-direction: column;
                 align-items: center;
+
+                .img-holder-section2{
+                    transition: all .3s linear;
+                }
+
+                .img-holder-section2:hover{
+                    transform: scale(1.03);
+                }
 
                 .colors-holder-card1-section2, .colors-holder-card2-section2{
                     padding: 28px 0px;
@@ -335,8 +347,10 @@ header{
             border-radius: 24px;
             align-items: center;
             list-style-type: none;
-            
-            .card-section3{
+            transition: all .3s linear;
+
+            li:hover{
+                transform: scale(1.09);
             }
 
             .content-card-section3{
@@ -354,6 +368,11 @@ header{
                 width: 100%;
                 object-fit: cover;
                 display: block;
+            }
+
+            .img-border{
+                border-bottom-left-radius: 12%;
+                border-bottom-right-radius: 12%;
             }
 
             .fixed-end-add-btn-card{
@@ -433,6 +452,11 @@ header{
     grid-template-columns: auto 1fr;
     border-radius: 30px;
     gap: 124px;
+    transition: all .4s linear;
+}
+
+.banner:hover{
+    transform: scale(1.01);
 }
 
 .left-side-text{
